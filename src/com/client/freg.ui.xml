@@ -1,0 +1,86 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+             xmlns:g="urn:import:com.google.gwt.user.client.ui"
+             xmlns:m="urn:import:gwt.material.design.client.ui"
+             xmlns:m.addins="urn:import:gwt.material.design.addins.client"
+       xmlns:m.html="urn:import:gwt.material.design.client.ui.html">
+       
+  <m:MaterialContainer  ui:field="aa">     
+   <m:MaterialPanel>
+    <g:HTMLPanel>
+    <center>
+     <m:MaterialTitle  title="FARMER REGISTRATION"  />
+  
+	
+	 <m:MaterialRadioButton name="LANG" text="HINDI" />
+   <m:MaterialRadioButton name="LANG" text="ENGLISH" />
+   
+	 <m:MaterialTextBox ui:field="name" label=" Name" width="45%"/>
+	 <m:MaterialTextBox ui:field="add" label="Address" width="45%"/> 
+	 <m:MaterialTextBox ui:field="mob" label="Mobile No." width="45%"/> 
+	 <m:MaterialTextBox ui:field="aadhar" label="Aadhar No." width="45%"/>
+	 
+	<m:MaterialRow addStyleNames="code">
+	 <m:MaterialListBox ui:field="gen"  placeholder="Gender" width="45%" >
+	 <m.html:Option text="MALE"/>
+        <m.html:Option text="FEMALE"/>
+        <m.html:Option text="OTHERS"/>
+        </m:MaterialListBox>
+	</m:MaterialRow>
+	 
+    <m:MaterialRow addStyleNames="code">
+        <m:MaterialListBox ui:field="city" placeholder="CITY" width="45%">
+        <m.html:Option text="AGRA"/>
+        <m.html:Option text="MATHURA"/>
+        <m.html:Option text="KHERAGARH"/>
+        <m.html:Option text="DEHRADUN"/>
+        <m.html:Option text="PORT BLAIR"/>
+        <m.html:Option text="GOA"/>
+        <m.html:Option text="JAIPUR"/>
+        <m.html:Option text="MADRAS"/>
+        <m.html:Option text="MUMBAI"/>
+        <m.html:Option text="KHUJRAO"/>
+      </m:MaterialListBox>
+      </m:MaterialRow>
+      
+       <m:MaterialRow addStyleNames="code">
+        <m:MaterialListBox ui:field="dis" placeholder="DISTRICT" width="45%">
+        <m.html:Option text="AGRA"/>
+        <m.html:Option text="MATHURA"/>
+        <m.html:Option text="DEHRADUN"/>
+        <m.html:Option text="PORT BLAIR"/>
+        <m.html:Option text="GOA"/>
+        <m.html:Option text="JAIPUR"/>
+        <m.html:Option text="MADRAS"/>
+        <m.html:Option text="MUMBAI"/>
+        <m.html:Option text="KHUJRAO"/>
+      </m:MaterialListBox>
+      </m:MaterialRow>
+     
+     
+      <m:MaterialRow addStyleNames="code">
+        <m:MaterialListBox ui:field="state" placeholder="STATE" width="45%">
+        <m.html:Option text="UTTAR PRADESH"/>
+        <m.html:Option text="UTTRANCHAL"/>
+        <m.html:Option text="ANDAMAN AND NICOBAR"/>
+        <m.html:Option text="GOA"/>
+        <m.html:Option text="RAJESTHAN"/>
+        <m.html:Option text="TAMIL NADU"/>
+        <m.html:Option text="MAHARASHTRA"/>
+        <m.html:Option text="MADHYA PRADESH"/>
+      </m:MaterialListBox>
+      </m:MaterialRow>
+      
+   
+ 
+  <m:MaterialTextBox ui:field="email" type="EMAIL" label="E-mail" width="45%"/>
+
+	 
+	 <m:MaterialTextBox ui:field="pass" type="PASSWORD" label="Password" width="45%"/> 
+	 <m:MaterialButton ui:field="submit" waves="LIGHT" text="Submit" width="45%"/> 
+     
+  </center>
+  </g:HTMLPanel>
+      </m:MaterialPanel>
+   </m:MaterialContainer>
+</ui:UiBinder>

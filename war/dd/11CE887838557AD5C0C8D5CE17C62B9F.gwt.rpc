@@ -1,0 +1,20 @@
+@FinalFields, false
+com.client.GreetingService, false, false, false, false, _, 3868261734
+com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException, true, true, true, true, com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException/3936916533, 3936916533
+com.google.gwt.user.client.rpc.RpcTokenException, true, true, false, false, com.google.gwt.user.client.rpc.RpcTokenException/2345075298, 2345075298
+com.google.gwt.user.client.rpc.XsrfToken, false, false, true, true, com.google.gwt.user.client.rpc.XsrfToken/4254043109, 4254043109
+com.shared.Cdet, true, true, true, true, com.shared.Cdet/3220218689, 3220218689
+com.shared.Reg, false, false, true, true, com.shared.Reg/634436697, 634436697
+com.shared.consumerslist, true, true, false, false, com.shared.consumerslist/904284846, 904284846
+com.shared.eve, true, true, false, false, com.shared.eve/3543629515, 3543629515
+com.shared.farmerslist, true, true, false, false, com.shared.farmerslist/421931071, 421931071
+com.shared.fdet, true, true, true, true, com.shared.fdet/2859370517, 2859370517
+com.shared.nuti, false, false, true, true, com.shared.nuti/66960429, 66960429
+com.shared.sevent, false, false, true, true, com.shared.sevent/4104775384, 4104775384
+java.lang.Exception, true, false, true, false, java.lang.Exception/1920171873, 1920171873
+java.lang.IllegalArgumentException, true, true, false, false, java.lang.IllegalArgumentException/1755012560, 1755012560
+java.lang.NumberFormatException, true, true, false, false, java.lang.NumberFormatException/3305228476, 3305228476
+java.lang.RuntimeException, true, false, true, false, java.lang.RuntimeException/515124647, 515124647
+java.lang.String, true, true, true, true, java.lang.String/2004016611, 2004016611
+[Ljava.lang.String;, true, true, false, false, [Ljava.lang.String;/2600011424, 2600011424
+java.lang.Throwable, true, false, true, false, java.lang.Throwable/2953622131, 2953622131
